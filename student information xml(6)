@@ -1,0 +1,61 @@
+XML............................
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="class.xsl"?>
+<class>
+<heading>CLASS</heading>
+    <student>
+        <name>Blair Waldorf</name>
+        <enroll>101</enroll>
+        <mobile>9999998988</mobile>
+        <mail>blairwaldorf@gmail.com</mail>
+    </student>
+    <student>
+        <name>Rory Gilmore</name>
+        <enroll>202</enroll>
+        <mobile>9876543219</mobile>
+        <mail>rorygilmore@gmail.com</mail>
+    </student>
+
+    <student>
+        <name>Paris Geller</name>
+        <enroll>205</enroll>
+        <mobile>6542987265</mobile>
+        <mail>parisgeller@gmail.com</mail>
+    </student>
+
+    <student>
+        <name>Dave Rygalski</name>
+        <enroll>210</enroll>
+        <mobile>7878905628</mobile>
+        <mail>rygalskidave@gmail.com</mail>
+    </student>
+</class>
+
+XSLT.........................
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+    <html>
+    <body>
+        <h2 style="text-align:center">CLASS</h2>
+        <table border="1" style="margin: 0px auto;">
+            <tr style="background-color:grey;">
+                <th>Name</th>
+                <th>Enroll. no.</th>
+                <th>Mobile phone</th>
+                <th>Email id</th>
+             </tr>
+            <xsl:for-each select="class/student">
+            <tr>
+                <td><xsl:value-of select="name"/></td>
+                <td><xsl:value-of select="enroll"/></td>
+                <td><xsl:value-of select="mobile"/></td>
+                <td><xsl:value-of select="mail"/></td>
+            </tr>
+            </xsl:for-each>
+        </table>
+    </body>
+    </html>
+</xsl:template>
+</xsl:stylesheet>
