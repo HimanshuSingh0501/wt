@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>registration.com</title>
+        <style>
+        aside {
+  margin-left: 30px;
+  float: right;
+  
+}
+
+th,tr{text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1 align="center">Student Registration form</h1>
+    <form action="/action_page.php">
+    <fieldset>
+        <legend align="center"><b>Personal Details</b></legend>
+        <aside><input type="image" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="photo" width="120" height="150"></aside>
+<br>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="mobile">Mobile No.:</label>
+        <input type="number" id="mobile" name="mobile"><br><br>
+        
+        
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+        
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea><br><br>
+        
+        
+        <label for="pin">PinCode:</label>
+        <input type="text" pattern="[0-9]"id="pincode" name="pin" maxlength="6"><br><br>
+        
+        <label for="country">Country:</label>
+
+  <select name="country" id="country">
+  <option value="def" selected="true" disabled="true">select your country</option>
+  <option value="india">India</option>
+  <option value="france">France</option>
+  <option value="vietnam">Vietnam</option>
+  <option value="italy">Italy</option>
+  <option value="thailand">Thailand</option>
+</select>
+        
+        
+        
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <legend align="center"><b>Educational Details</b></legend>
+    
+    <br>
+    <table style="width:100%">
+        <tr>
+            <th>Class</th>
+            <th>% Marks</th>
+            <th>Board</th>
+            <th>Yr of passing</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><input type="number" id="marks" name="marks"></td>
+            <td><input type="text" id="board" name="board"></td>
+            <td><input type="date" id="yr" name="yr"></td>
+        </tr>
+        
+        <tr>
+            <td>12</td>
+            <td><input type="number" id="marks" name="marks"></td>
+            <td><input type="text" id="board" name="board"></td>
+            <td><input type="date" id="yr" name="yr"></td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td>Grad</td>
+            <td><input type="number" id="marks" name="marks"></td>
+            <td><input type="text" id="board" name="board"></td>
+            <td><input type="date" id="yr" name="yr"></td>
+        </tr>
+    </table>
+    
+    <p>Apply for</p>
+    <input type="checkbox" id="job" name="job" value="job">
+<label for="job">Job</label><br>
+<input type="checkbox" id="edu1" name="edu1" value="higheredu">
+<label for="edu1">Higher Education</label><br>
+<input type="checkbox" id="en" name="en" value="en">
+<label for="vehicle3"> Enterprise</label><br><br>
+
+<label for="pass">Set password:</label>
+<input type="password" id="pass" name="pass"><br><br>
+<center><input type="reset" value="Reset">
+    <input type="submit" value="Submit"></center>
+     </fieldset>
+    </form>
+
+    </body>
+<footer>
+  <p align="right">BY : Himanshu Singh<br>012996302721 <br>
+  </p>
+  
+</footer>
+</html>
+
+
