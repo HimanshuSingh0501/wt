@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            h1{text-align:center;}  
+        </style>
+    </head>
+    <body>
+        <h1>CSE-4 Time Table</h1>
+
+        <table style="width:100%">
+            <tr>
+                <th>HOURS</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </tr>
+            <tr>
+                <th>PERIOD/DAYS</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-1:00</th>
+                <th>1:00-2:00</th>
+                <th>2:00-2:30</th>
+                <th>2:30-3:30</th>
+                <th>3:30-4:30</th>
+            </tr>
+            <tr>
+                <td rowspan="3"> MONDAY </td>
+                <td rowspan="3">  </td>
+                <td rowspan="3"> WT</td>
+                <td rowspan="3"> PPL</td>
+                <td rowspan="3"> AI</td>
+                <td rowspan="11"> LUNCH</td>
+                <td colspan="2"> SSM DA</td>
+            </tr>
+            <tr>
+                <td colspan="2">AI</td>
+            </tr>
+            <tr>
+                <td colspan="2">WT LAB</td>
+            </tr>
+             
+            <tr>
+                <td rowspan="2"> TUES </td>
+                <td colspan="2"> AI LAB (A) </td>
+                <td rowspan="2"> PY </td>
+                <td rowspan="2"> PPL</td>
+                <td colspan="2"> SSM & DA LAB (B)</td>
+            </tr>
+            <tr>
+                <td colspan="2">PY LAB (B)</td>
+                <td colspan="2">PY LAB (C)</td>
+            </tr>
+            
+            
+            <tr>
+                <td rowspan="2"> WED </td>
+                <td rowspan="2"> PY </td>
+                <td rowspan="2"> SSM & DA</td>
+                <td rowspan="2"> UHV</td>
+                <td rowspan="2"> PME </td>
+                <td colspan="2"> WT LAB (A)</td>
+            </tr>
+            <tr>
+                <td colspan="2">AI LAB (C)</td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td > THU </td>
+                <td > WT </td>
+                <td > PPL </td>
+                <td > AI </td>
+                <td > PY </td>
+                <td > PME </td>
+                <td > SSM & DA </td>
+            </tr>
+           
+            <tr>
+                <td rowspan="3"> FRI </td>
+                <td rowspan="3"> AI </td>
+                <td rowspan="3">SSM & DA </td>
+                <td rowspan="3"> PME</td>
+                <td rowspan="3"> WT</td>
+                <td colspan="2"> SSM & DA LAB (C) </td>
+            </tr>
+            <tr>
+                <td colspan="2">WT LAB (B)</td>
+            </tr>
+            <tr>
+                <td colspan="2">PY LAB (A)</td>
+            </tr>
+            
+            
+            
+           
+        </table>
+    </body>
+</html>
+
