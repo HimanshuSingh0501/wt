@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<frameset rows = "50%, 50% " >
+<frameset cols=" 45% , 55% " >
+		<frame src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain- 
+background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1708992000&semt=sph"  
+style="background-color:red ; object-fit: cover ">
+ 
+		<frame src="C:\Users\Student\Desktop\frameset\audio.html" style="background- 
+color:skyblue">
+</frameset>
+<frame src="C:\Users\Student\Desktop\frameset\video.html" style="background-color: black">
+</frameset>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<audio controls>
+  <source src="soft-rain-ambient-111154.mp3" type="audio/mp3">
+</audio>
+<a>audio is playing</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<video  width = "800" height = "200" controls autoplay >
+       <source src = "video_of_snowfall (2160p).mp4" type = "video/mp4" />
+</video>
+</body>
+</html>
