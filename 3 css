@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOMETOWN</title>
+<style>
+div{ background-color:black;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+</style>
+<link rel="stylesheet"  href="hometown.css">
+</head>
+<body>
+<div>
+<div id ="town" style="height:12vh;">
+<h1  style="color:#b57400; padding-top:15px; text- 
+align:center;">Welcome Home</h1></div>
+
+<div class="image"><img  
+src="https://static.nationalgeographic.co.uk/files/styles/image 
+_3200/public/mountain-range-appenzell-switzerland_0.jpg? 
+w=1190&h=794" alt="village" class="center">
+<img  
+src="https://uttarakhandtourism.gov.in/sites/default/files/2021 
+-01/Image%20under%20banner_0.jpg" alt="town">
+</div>
+<h2 align="center" style="color:#b57400; font-size:  
+25px;"><b>RANIKHET, UTTARAKHAND</b></h2>
+
+<p class="data" >A legend says that a Kumaoni queen was  
+enchanted by this tiny hill paradise and it's in her honour  
+that a palace was built here, thus the name, 'queen's land' .  
+While no trace of the palace can be found today, but Ranikhet  
+remains the same: captivating, abounding with flowers, trees  
+and green meadows in the midst of heavenly Himalayan  
+surroundings. <br>Interestingly, the nine-hole Ranikhet Golf  
+Course is one of the highest in Asia and the rolling meadows of  
+the course are breathtaking.</p>
+</div>
+</body>
+</html>
+
+
+
+body {
+  width: 95%;
+  max-width: 2000px;
+  margin: 0 auto;
+  font:
+    0.9em/1.2 Arial,
+    Helvetica,
+    sans-serif;
+}
+.image{
+margin:18px;
+display:flex;
+padding-right: 100px;
+ }
+
+img {
+display:flex;
+ height: 400px;
+  width: 400px;
+}
+#town{
+background-color:#0A5C36;
+}
+.data{
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  color:gray;
+  font-family: 'Bradley Hand', cursive;
+  font-size: 17px;
+}
