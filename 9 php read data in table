@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>User Data</h2>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Password</th>
+        <th>Email</th>
+    </tr>
+    <?php
+    // Open the file for reading
+    $file = fopen("users.txt", "r") or die("Unable to open file!");
+
+    // Read each line of the file and display it in a table row
+    while (!feof($file)) {
+        $line = fgets($file);
+        $data = explode(',', $line);
+        echo "<tr>";
+        echo "<td>" . $data[0] . "</td>";
+        echo "<td>" . $data[1] . "</td>";
+        echo "<td>" . $data[2] . "</td>";
+        echo "</tr>";
+    }
+
+    // Close the file
+    fclose($file);
+    ?>
+</table>
+
+</body>
+</html>
